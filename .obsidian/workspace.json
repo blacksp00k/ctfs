@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "1d134e511aac3963",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "56b14c92d06e5477",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HackTheBox/Retired-Machines/Silo/Silo-Helped-Through.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Silo-Helped-Through"
-            }
-          }
-        ]
-      },
-      {
         "id": "5c2dae5cfa654302",
         "type": "tabs",
         "children": [
@@ -33,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/Retired-Machines/Cronos/Cronos-Writeup.md",
+                "file": "HackTheBox/Retired-Machines/SwagShop/SwagShop-Writeup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cronos-Writeup"
+              "title": "SwagShop-Writeup"
+            }
+          }
+        ]
+      },
+      {
+        "id": "6231e4d5bf900294",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d84dfd9c09d27e1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HackTheBox/Retired-Machines/SwagShop/SwagShop-Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SwagShop-Notes"
             }
           }
         ]
@@ -191,19 +191,40 @@
   },
   "active": "326f7bf345d6bbfa",
   "lastOpenFiles": [
+    "HackTheBox/Retired-Machines/SwagShop/rce.py",
+    "HackTheBox/Retired-Machines/SwagShop/Screenshots/wtfisthisexploit.png",
+    "HackTheBox/Retired-Machines/SwagShop/Screenshots/pythonisreREEEEEEEEEEEEE.png",
+    "HackTheBox/Retired-Machines/SwagShop/Screenshots/whatcommentingout.png",
+    "HackTheBox/Retired-Machines/SwagShop/SwagShop-Notes.md",
+    "HackTheBox/Retired-Machines/SwagShop/Screenshots/adminpanel.png",
+    "HackTheBox/Retired-Machines/SwagShop/SwagShop-Writeup.md",
+    "HackTheBox/Retired-Machines/SwagShop/shoplift.py",
+    "HackTheBox/Retired-Machines/SwagShop/Screenshots/shoplifter.png",
+    "HackTheBox/Retired-Machines/SwagShop/Screenshots/irememberedtheindexphpfromtheexploitandaaaahed.png",
+    "HackTheBox/Retired-Machines/SwagShop/Screenshots/explainingtheexploit.png",
+    "HackTheBox/Retired-Machines/SwagShop/Screenshots/nikto.png",
+    "HackTheBox/Retired-Machines/SwagShop/Screenshots/magento-version.png",
+    "HackTheBox/Retired-Machines/SwagShop/Screenshots/sqlversions-admin.png",
+    "HackTheBox/Retired-Machines/Cronos/Cronos-Writeup.md",
+    "HackTheBox/Retired-Machines/SwagShop/Notes/0-SwagShop-Notes.md",
+    "HackTheBox/Retired-Machines/SwagShop/nmap",
+    "HackTheBox/Retired-Machines/SwagShop/nikto",
+    "HackTheBox/Retired-Machines/SwagShop/masscan",
+    "HackTheBox/Retired-Machines/SwagShop/gobuster",
+    "HackTheBox/Retired-Machines/SwagShop/ffuf",
+    "HackTheBox/Retired-Machines/SwagShop/feroxbuster",
+    "HackTheBox/Retired-Machines/SwagShop/data",
+    "HackTheBox/Retired-Machines/SwagShop/SwagShop-Meta-Notes.md",
+    "HackTheBox/Retired-Machines/SwagShop/SwagShop-CMD-by-CMDs.md",
+    "HackTheBox/Retired-Machines/SwagShop/Screenshots",
+    "HackTheBox/Retired-Machines/SwagShop/Notes",
     "HackTheBox/Retired-Machines/Silo/Silo-Helped-Through.md",
-    "HackTheBox/Retired-Machines/Silo/Screenshots/nopsexec.png",
+    "HackTheBox/Retired-Machines/Cronos/Cronos-CMD-by-CMDs.md",
+    "HackTheBox/Retired-Machines/Cronos/Cronos-Meta-Notes.md",
+    "HackTheBox/Retired-Machines/Cronos/Cronos-Notes.md",
+    "HackTheBox/Retired-Machines/Cronos/Notes/0-Cronos-Notes.md",
     "HackTheBox/Retired-Machines/Active/Active-Helped-Through.md",
     "HackTheBox/Retired-Machines/Forest/Forest-Helped-Through.md",
-    "HackTheBox/Retired-Machines/Silo/Screenshots/passwordrequired.png",
-    "HackTheBox/Retired-Machines/Silo/Screenshots/sadhashcat.png",
-    "HackTheBox/Retired-Machines/Silo/Screenshots/nthashshurray.png",
-    "HackTheBox/Retired-Machines/Silo/Screenshots/isitcmdlinenoworky.png",
-    "HackTheBox/Retired-Machines/Silo/Screenshots/ahyesthebadsetuphell.png",
-    "HackTheBox/Retired-Machines/Silo/Screenshots/andthenamingescapedme.png",
-    "HackTheBox/Retired-Machines/Silo/Screenshots/tearofmetepreter.png",
-    "HackTheBox/Retired-Machines/Silo/Screenshots/notvolingaround.png",
-    "HackTheBox/Retired-Machines/Silo/Screenshots/iwouldhavenevercheckedthat.png",
     "HackTheBox/Retired-Machines/Devel/Devel-Helped-through.md",
     "HackTheBox/Retired-Machines/Optimum/Optimum-Meta-Notes.md",
     "HackTheBox/Retired-Machines/Optimum/Optimum-Systeminfo.md",
@@ -212,20 +233,9 @@
     "HackTheBox/Retired-Machines/Optimum/Optimum-Writeup.md",
     "HackTheBox/Retired-Machines/Bastion/Bastion-Writeup.md",
     "HackTheBox/Retired-Machines/Optimum/Optimum-CMD-by-CMDs.md",
-    "HackTheBox/Retired-Machines/Optimum/ffuf",
-    "HackTheBox/Retired-Machines/Optimum/gobuster",
     "HackTheBox/Retired-Machines/Optimum/Notes/0-Optimum-Notes.md",
-    "HackTheBox/Retired-Machines/Optimum/Notes",
-    "HackTheBox/Retired-Machines/Optimum/data",
     "HackTheBox/Retired-Machines/Bastion/Notes/0-Bastion-Notes.md",
-    "HackTheBox/Retired-Machines/Bastion/nmap",
-    "HackTheBox/Retired-Machines/Bastion/nikto",
-    "HackTheBox/Retired-Machines/Bastion/masscan",
-    "HackTheBox/Retired-Machines/Bastion/gobuster",
-    "HackTheBox/Retired-Machines/Bastion/ffuf",
-    "HackTheBox/Retired-Machines/Bastion/feroxbuster",
     "HackTheBox/Retired-Machines/Bastion/Bastion-Notes.md",
-    "HackTheBox/Retired-Machines/Bastion/Bastion-Meta-Notes.md",
-    "HackTheBox/Retired-Machines/Bastion/Bastion-CMD-by-CMDs.md"
+    "HackTheBox/Retired-Machines/Bastion/Bastion-Meta-Notes.md"
   ]
 }

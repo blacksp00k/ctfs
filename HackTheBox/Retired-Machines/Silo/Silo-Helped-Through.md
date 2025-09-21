@@ -414,5 +414,4 @@ Ippsec uses another old tool. 0xdf uses psexec, but with modern impacket it need
 
 ## Beyond Root
 
-Try install msdat in 2025 
-https://github.com/quentinhardy/msdat
+Original wanted to try msdat, and then on editing and reflection the coolest thing was a resource better than HackTricks - https://github.com/TheSnowWight/hackdocs/tree/master
