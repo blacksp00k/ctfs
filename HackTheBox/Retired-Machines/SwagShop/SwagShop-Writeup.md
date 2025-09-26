@@ -12,6 +12,8 @@ Goals:
 	- How does do I get Z with:
 		- ... etc
 Learnt:
+- proxying to debug exploit PoC with python
+- 
 Beyond Root:
 - PHP injection 
 - Python3 revision
@@ -123,7 +125,6 @@ We can use `vi` with `sudo` without a password. Vi has a command palette that ca
 And because (p/t?)ty issues we need to force command on entry to vi not during with the command palette. [gtfobins](https://gtfobins.github.io/gtfobins/vi/#sudo)
 ```bash
 sudo vi /var/www/html/test -c ':!/bin/sh' /dev/null
-
 ```
 
 ## Post-Root-Reflection  
@@ -133,4 +134,10 @@ sudo vi /var/www/html/test -c ':!/bin/sh' /dev/null
 
 ## Beyond Root
 
-Learn about PHP injection from Ippsec
+Learn about PHP injection from [Ippsec HackTheBox SwagShop](https://www.youtube.com/watch?v=qECG2_8xw_s), the page does not spoil the box or the lessons that can be learnt from it.
+
+Essentially a serialisation and deserialisation vulnerability. This vulnerability stems from a deserialisation functionality that is pass a serialised object and then a php gadgets that can execute php, based on the handling of that object post-deserialisation. The example given by Ippsec is a  regular expression with a execute flag in older php version `/replacethis/withthis/g,e`, such that during parsing can be hijacked by the php code embedded in the object.
+
+[HackTheBox SwagShop](https://www.youtube.com/watch?v=qECG2_8xw_s)
+
+I also decided to review some more python just to be more familiar reading python with https://tryhackme.com/room/customtoolingpython
