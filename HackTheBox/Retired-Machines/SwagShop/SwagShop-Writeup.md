@@ -13,7 +13,6 @@ Goals:
 		- ... etc
 Learnt:
 - proxying to debug exploit PoC with python
-- 
 Beyond Root:
 - PHP injection 
 - Python3 revision

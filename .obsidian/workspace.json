@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/Retired-Machines/SwagShop/SwagShop-Writeup.md",
+                "file": "HackTheBox/Retired-Machines/Dog/Dog-Writeup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SwagShop-Writeup"
+              "title": "Dog-Writeup"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/Retired-Machines/SwagShop/SwagShop-Notes.md",
+                "file": "HackTheBox/Retired-Machines/Dog/Dog-Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SwagShop-Notes"
+              "title": "Dog-Notes"
             }
           }
         ]
@@ -191,21 +191,24 @@
   },
   "active": "326f7bf345d6bbfa",
   "lastOpenFiles": [
-    "HackTheBox/Retired-Machines/SwagShop/SwagShop-Notes.md",
+    "HackTheBox/Retired-Machines/Dog/Screenshots/drupal7.png",
+    "HackTheBox/Retired-Machines/Dog/Dog-Notes.md",
+    "HackTheBox/Retired-Machines/Dog/Screenshots/yikes.png",
+    "HackTheBox/Retired-Machines/Dog/Dog-Writeup.md",
+    "HackTheBox/Retired-Machines/Dog/Screenshots/wecanexecute.png",
+    "HackTheBox/Retired-Machines/Dog/Screenshots/verystrangedirtycore.png",
+    "HackTheBox/Retired-Machines/Dog/Screenshots/testingroutabilitywithcore.png",
+    "HackTheBox/Retired-Machines/Dog/Screenshots/accessdenied.png",
+    "HackTheBox/Retired-Machines/Dog/Screenshots/cleanuncleanurls.png",
+    "HackTheBox/Retired-Machines/Dog/Screenshots/nuclei.png",
+    "HackTheBox/Retired-Machines/Dog/Screenshots/admin-fp.png",
+    "HackTheBox/Retired-Machines/Dog/Screenshots/webconfig-fp.png",
+    "HackTheBox/Retired-Machines/Dog/Screenshots/dogisbig.png",
     "HackTheBox/Retired-Machines/SwagShop/SwagShop-Writeup.md",
-    "HackTheBox/Retired-Machines/SwagShop/Screenshots/sudonopasswdvi.png",
-    "HackTheBox/Retired-Machines/SwagShop/Screenshots/hurray.png",
-    "HackTheBox/Retired-Machines/SwagShop/Screenshots/rceothererror.png",
-    "HackTheBox/Retired-Machines/SwagShop/Screenshots/firsterrorotherrce.png",
+    "HackTheBox/Retired-Machines/SwagShop/SwagShop-Notes.md",
     "HackTheBox/Retired-Machines/SwagShop/initial-rce-attempt.py",
-    "HackTheBox/Retired-Machines/SwagShop/Screenshots/request.png",
     "HackTheBox/Retired-Machines/SwagShop/rce.py",
-    "HackTheBox/Retired-Machines/SwagShop/Screenshots/wtfisthisexploit.png",
-    "HackTheBox/Retired-Machines/SwagShop/Screenshots/pythonisreREEEEEEEEEEEEE.png",
-    "HackTheBox/Retired-Machines/SwagShop/Screenshots/whatcommentingout.png",
-    "HackTheBox/Retired-Machines/SwagShop/Screenshots/adminpanel.png",
     "HackTheBox/Retired-Machines/SwagShop/shoplift.py",
-    "HackTheBox/Retired-Machines/SwagShop/Screenshots/shoplifter.png",
     "HackTheBox/Retired-Machines/Cronos/Cronos-Writeup.md",
     "HackTheBox/Retired-Machines/SwagShop/Notes/0-SwagShop-Notes.md",
     "HackTheBox/Retired-Machines/SwagShop/nmap",
@@ -233,8 +236,6 @@
     "HackTheBox/Retired-Machines/Bastion/Bastion-Writeup.md",
     "HackTheBox/Retired-Machines/Optimum/Optimum-CMD-by-CMDs.md",
     "HackTheBox/Retired-Machines/Optimum/Notes/0-Optimum-Notes.md",
-    "HackTheBox/Retired-Machines/Bastion/Notes/0-Bastion-Notes.md",
-    "HackTheBox/Retired-Machines/Bastion/Bastion-Notes.md",
-    "HackTheBox/Retired-Machines/Bastion/Bastion-Meta-Notes.md"
+    "HackTheBox/Retired-Machines/Bastion/Notes/0-Bastion-Notes.md"
   ]
 }
